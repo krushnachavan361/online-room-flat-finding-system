@@ -1,0 +1,27 @@
+# Environment / configuration
+.env
+.env.*
+!.env.example
+
+# XAMPP / local files
+xampp/
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# PHP development files
+*.bak
+*.swp
+# College notes / personal study material
+assets/images/sem 2/

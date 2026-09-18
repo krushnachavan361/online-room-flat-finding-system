@@ -1,0 +1,11 @@
+<?php
+include("../includes/owner_auth.php");
+include("../includes/db.php");
+
+$id = $_GET['id'];
+$status = $_GET['status'];
+
+mysqli_query($conn, "UPDATE bookings SET status='$status' WHERE id='$id'");
+
+header("Location: bookings.php");
+?>
